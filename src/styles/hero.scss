@@ -1,0 +1,39 @@
+.hero {
+  @apply w-full py-10 flex relative content-center;
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+}
+
+.hero p {
+  @apply py-2;
+}
+
+.hero.hero--two-thirds {
+  min-height: 60vh;
+}
+
+.hero.hero--full {
+  min-height: 100vh;
+}
+
+.hero > .hero-overlay {
+  @apply absolute inset-0;
+  background-color: rgba(0, 0, 0, .75);
+}
+
+.hero.hero--gradient--blue-ruby {
+  @apply text-white;
+  background: rgb(0, 18, 19);
+  background: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(139, 30, 63, 1) 100%);
+}
+
+.hero.hero--gradient--teal-aqua {
+  @apply text-white;
+  background: rgb(0, 18, 19);
+  background: linear-gradient(90deg, #E65137 35%, #8884FF 100%);
+}
+
+.hero > .container {
+  @apply z-10;
+}
