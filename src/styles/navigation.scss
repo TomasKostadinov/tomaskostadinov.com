@@ -52,7 +52,9 @@
         z-index: 1;
       }
     }
-
+    ul {
+      float: right;
+    }
     li {
       @apply inline-block w-full py-6;
 
