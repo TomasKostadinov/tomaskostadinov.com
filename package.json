@@ -8,8 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "gulp ",
-    "build": ""
+    "start": "gulp",
+    "build": "gulp build:style",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.2.1",
