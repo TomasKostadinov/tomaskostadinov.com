@@ -8,15 +8,20 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "@tailwindcss/forms": "^0.2.1",
     "A": "^0.0.1",
+    "autoprefixer": "^10.2.5",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-cssmin": "^0.2.0",
     "gulp-header": "^2.0.9",
-    "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
     "serve": "^11.3.0",
-    "tailwindcss": "^1.2.0",
+    "tailwindcss": "^2.1.1",
     "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "gulp-postcss": "^8.0.0",
+    "postcss": "^8.2.10"
   }
 }

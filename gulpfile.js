@@ -57,7 +57,9 @@ gulp.task('build:style-dev', function () {
 
 
 
-gulp.task('build:templates', function () {
+gulp.task('build:templates', async function () {
+    await gulp.src('src/assets/**')
+        .pipe(gulp.dest('./dist/assets/'));
     return gulp.src('src/templates/**.html')
         .pipe(gulp.dest('./dist/'));
 });
