@@ -16,7 +16,7 @@
     "@tailwindcss/forms": "^0.2.1",
     "A": "^0.0.1",
     "autoprefixer": "^10.2.5",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^3.0.3",
     "gulp": "^4.0.2",
     "gulp-cssmin": "^0.2.0",
     "gulp-header": "^2.0.9",
